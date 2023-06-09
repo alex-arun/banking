@@ -1,0 +1,139 @@
+@import url(./index.css);
+#main{
+    background-color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+#avinfo{
+    color: white;
+    padding: 2vh 2vw 0 1vw;
+}
+.itm1{
+    width: 20vw;
+    height: 95vh;
+    margin: 2vh 2vw;
+    border-radius:1vw ;
+    box-shadow: 1px 1px 10px rgb(46, 46, 46);
+    align-content: space-around;
+    background-image: linear-gradient(to bottom,  rgb(32, 75, 227) , rgb(70, 219, 249));
+}
+.maincont{
+    width: 60vw;
+}
+.card-text{
+    color:#434242;
+}
+.card-title{
+    color: #222222;
+}
+h2{
+    color: var(--lightblue);
+    text-align: center;
+    padding: 0.5vh 0;
+}
+.itm1 #pro{
+    border-radius: 50%;
+    height: 30vh;
+    width: 15vw;
+    margin-left:2vw;
+    border: 5px solid var(--lightblue);
+}
+.itm1 .li ul li{
+    list-style: none;
+    margin: 2vh 2vw 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h4{
+    margin-top: 3vh;
+    padding-bottom:2vh ;
+}
+.blcmn{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2vh 0 2vh 0;
+}
+.maincont{
+    border-radius: 1vw;
+    margin-top: 3vh;
+    width: 50vw;
+    box-shadow: 1px 1px 6px rgb(89, 89, 89);
+    padding: 0.2vh 2vw 2vh 2vw;
+
+}
+.amt1 b{
+    color: var(--lightblue);
+}
+#balance img{
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100);
+    transition-duration: 1s;
+}
+#balance img:hover{
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+.maincont2{
+    border-radius: 1vw;
+    margin-top: 3vh;
+    width: 50vw;
+    box-shadow: 1px 1px 6px rgb(89, 89, 89);
+    padding: 0.2vh 2vw 2vh 2vw;
+}
+.Summary th{
+    color: #302f2f;
+    padding-left:1vh ;
+      /* box-shadow: 1px 1px 6px rgb(0,0,0); */
+    text-align: center;
+}
+#th1{
+    width: 2vw;
+} 
+#th2{
+    width: 38vw;
+}  
+#th3{
+    width:4vw;
+}
+#th4{
+    width: 4vw;
+}
+#green{
+    color:rgb(103, 237, 103) !important;
+    font-weight: 700;
+}
+#red{
+    color: red !important;
+    font-weight: 700;
+}
+td{
+    text-align: center;
+    padding: 1.5vh 0 0.2vh 0;
+
+}
+tr{
+    border-bottom: 1px solid #0000006a;
+}
+.d-block{
+    height: 95vh;
+    border-radius: 1vw;
+}
+.carousel-inner {
+    position: relative;
+    width: 20vw;
+    overflow: hidden;
+}
+.carousel, .d-block {
+    width: 20vw;
+}

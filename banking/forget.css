@@ -1,0 +1,9 @@
+@import url(./index.css);
+#forpass{
+    text-align: center;
+}
+main{
+  background-image: url(./resources/bgimg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
